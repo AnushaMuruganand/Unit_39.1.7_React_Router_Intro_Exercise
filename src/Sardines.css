@@ -1,0 +1,30 @@
+.Sardines{
+    background: url("https://lh3.googleusercontent.com/-fx_mwz4FB4o/VRmZDwrSiRI/AAAAAAAAXcg/Cntv5zRc9xw/s757-fcrop64=1,00000052ffd0ffff/sardines_in_blue_gplus_cover.gif");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;  
+}
+
+.Sardines-div{
+    width:600px;
+    background-color: rgba(250, 235, 215,0.5);
+    padding: 1rem;
+}
+
+.Sardines-link{
+    font-weight:bold;
+    font-size: 27px;
+    color:black;
+    text-decoration: none;
+}
+
+.Sardines-link:hover{
+    text-decoration: underline;
+}

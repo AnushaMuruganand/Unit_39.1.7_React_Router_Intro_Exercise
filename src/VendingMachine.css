@@ -1,0 +1,31 @@
+/* main{
+    background: url("https://cdn.cnn.com/cnnnext/dam/assets/171004155619-singapore-vending-machine-chef-in-box-008-full-169.jpg");
+} */
+
+.VendingMachine{
+    background: url("https://cdn.cnn.com/cnnnext/dam/assets/171004155619-singapore-vending-machine-chef-in-box-008-full-169.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* text-align: center;
+    justify-content: space-around; */
+}
+
+.VendingMachine-header{
+    width:300px;
+    background-color: rgba(250, 235, 215,0.5);
+}
+
+.VendingMachine-links{
+    height:150px;
+    width:300px;
+    background-color: rgba(250, 235, 215,0.5);
+    text-align: center;
+}
